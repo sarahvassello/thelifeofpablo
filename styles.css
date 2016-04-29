@@ -1,0 +1,126 @@
+body {
+    background: #F78C58;
+    font-family: 'VT323' ;
+    
+}
+
+h3, h2 {
+   font-family: 'VT323' ;
+}
+
+
+
+.pablo {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*----- Tabs -----*/
+.tabs {
+     max-height: 600px;
+    overflow-y: scroll;
+    
+}
+ 
+    /*----- Tab Links -----*/
+    /* Clearfix */
+    .tab-links:after {
+        display:block;
+        clear:both;
+        content:'';
+    }
+ 
+    .tab-links li {
+        margin:0px 5px;
+        float:left;
+        list-style:none;
+    }
+ 
+        .tab-links a {
+            padding:9px 15px;
+            display:inline-block;
+            border-radius:3px 3px 0px 0px;
+            background:#7FB5DA;
+            font-size:16px;
+            font-weight:600;
+            color:#4c4c4c;
+            transition:all linear 0.15s;
+        }
+ 
+        .tab-links a:hover {
+            background:#a7cce5;
+            text-decoration:none;
+        }
+ 
+    li.active a, li.active a:hover {
+        background:#fff;
+        color:#4c4c4c;
+    }
+ 
+    /*----- Content of Tabs -----*/
+    .tab-content {
+        padding:15px;
+        border-radius:3px;
+        box-shadow:-1px 1px 1px rgba(0,0,0,0.15);
+        background:#fff;
+    }
+ 
+        .tab {
+            display:none;
+        }
+ 
+        .tab.active {
+            display:block;
+        }
+        
+        
+#map_canvas {
+    width: 80%;
+    height: auto;
+}
+        
+        
+#instagram {
+    padding: 10px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+     
+}
+
+#twitter iframe {
+    height: 600px;
+    width: 600px;
+    overflow-y: scroll;
+}
+
+
+.username {
+    font-weight: bold;
+    color: #7FB5DA;
+    font-family: 'VT323';
+    font-size: 12pt;
+}
+
+
+#results {
+    padding: 10px;
+    
+}
+
+.sections {
+    font-weight: bold;
+}
+
+.headline {
+    color:#7FB5DA;
+}
+
+
+
+
+      #map {
+       width: 800px;
+       height: 500px;
+      }
+
